@@ -1,0 +1,48 @@
+ body {
+  
+} 
+
+.btn{
+    padding: 80px 0px 10px 70px;
+}
+
+.container{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button{
+    font-size: 24px;
+    background-color: skyblue; 
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+button{
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: lightgreen;
+  }
+
+#grid-container {
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #333;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
